@@ -1,0 +1,6 @@
+.cta-button{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 0.7rem 1.2rem;
+    font-size: 1.1rem;
+}
