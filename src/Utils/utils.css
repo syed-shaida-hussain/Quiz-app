@@ -40,3 +40,25 @@
 .ml1{
     margin-left: 1rem;
 }
+
+.fs1{
+    font-size: 1rem;
+}
+
+.home-btn{
+    color: var(--card-bg-color);
+    font-size: 1rem;
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.card{
+    max-height: 23rem;
+    cursor: pointer;
+}
+
+.green {
+    color : green;
+}

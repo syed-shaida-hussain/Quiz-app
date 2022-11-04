@@ -4,3 +4,13 @@
     padding: 0.7rem 1.2rem;
     font-size: 1.1rem;
 }
+
+.input-field{
+    padding: 0.5rem 1rem;
+    width: 15rem;
+    outline: none;
+}
+
+.input-container {
+    text-align: center;
+}

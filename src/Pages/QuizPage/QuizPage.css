@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background-color: var(--body-bg-color);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.main-wrapper {
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+    width: 50rem;
+    height: 32rem;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.question-counter {
+    margin: 1.5rem;
+    margin-right: 15rem;
+}
+
+.question {
+    margin: 2rem auto;
+    font-size: 1.1rem;
+    width: 60ch;
+    line-height: 1.6rem;
+}
+
+.alert {
+    padding: 0;
+    height: 4rem;
+    width: 30rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: var(--card-text-color);
+}
+
+.alert-options {
+    background-color: var(--body-bg-color);
+}
+
+.result {
+    height: 50rem;
+}
+
+.result-link-container{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.question{
+    color: var(--text-color);
+}

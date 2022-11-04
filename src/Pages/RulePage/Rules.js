@@ -17,7 +17,7 @@ const Rules = () => {
         <div className="rules">
             <h3 className="rule mt1">Rule 2 :
                 <p className="rule-text">
-                    You will be asked 5 questions for each quiz you take.
+                    You will be asked 10 questions for each quiz you take.
                 </p>
             </h3>
         </div>
@@ -38,7 +38,7 @@ const Rules = () => {
     </main>
     <div className="centered ">
         <button className="btn home-btn" onClick={() => navigate("/home")}>Back Home</button>
-        <button className="btn cta-button">Take Quiz</button>
+        <button className="btn cta-button" onClick={() => navigate("/categories")}>Take Quiz</button>
     </div>
     </div>)
 }
